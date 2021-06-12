@@ -4,7 +4,8 @@
   "description": "coding challenge",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev:server": "echo fill this in for the server dev env script"
   },
   "author": "Antra-react",
   "dependencies": {

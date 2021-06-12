@@ -16,9 +16,14 @@ Our techstack is React, Redux, Node, Express (microservice layer). We don’t ex
 - Once you are complete with the tasks of this challenge, push the code to your repo and send the link to the Slack Training channel to forward to the training team for review.
 - Here are the tasks to complete using the challenge repo:
 
-1. Setup your developement env for the server and be ready to Modify API mentioned below (You can use nodemon, babel, webpack and any thing that help you to write better code.) // Once you have done this part, make a commit called "server env setup".
+1. Review the project to undertand the current project's code, logic, and dependencies.
 
-2. Modify the GET /users/age endpoint API so that the _itemToLookup_ value in the function _getListOfAgesOfUsersWithHandler_ can be variably specified by the front-end application calling the endpoint and not hardcoded as ‘carrot’ like it currently is. / Once you have done this part, make a commit called "finished API".
+2. Setup your developement env for the server and create the dev:server script in package.json (You can use nodemon and any thing that help you to write better code.) // Once you have done this part, make a commit called "server env setup".
+
+3. Modify the GET /hobbies endpoint API so that it should return a JSON (an array of hobbies without duplicate value).
+   // Once you have done this part, make a commit called "finished hobbies API".
+
+4. Modify the GET /users/age endpoint API so that the _hobbyToLookup_ value in the function _getListOfAgesOfUsersWithHandler_ can be variably specified by the front-end application calling the endpoint and not hardcoded as 'pc game' like it currently is. / Once you have done this part, make a commit called "finished age API".
 
 When you are done, the hiring team should be able to get your code up and running by these 3 commands:
 
