@@ -13,7 +13,7 @@ Our techstack is React, Redux, Node, Express (microservice layer). We don’t ex
 ## Instructions:
 
 - Fork the code challenge repo to your personal Github account
-- Once you are complete with the tasks of this challenge, push the code to your repo and send the link to the Slack Training channel to forward to the training team for review.
+- Once you are complete with the tasks of this challenge , push the code to your repo and send the link to Patrick with direct message using Slack. (please submit it be before 6pm est today)
 - Here are the tasks to complete using the challenge repo:
 
 1. Review the project to undertand the current project's code, logic, and dependencies.
