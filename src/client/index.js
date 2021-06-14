@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import './index.css';
 
 const App = () => <h1>You should see a red color text here</h1>;
 
