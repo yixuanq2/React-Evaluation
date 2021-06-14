@@ -4,3 +4,9 @@ this is a test css file, feel free to use other tool like styled component Or SC
 h1 {
   color: red;
 }
+
+.App {
+  text-align: center;
+}
+
+
