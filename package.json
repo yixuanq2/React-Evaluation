@@ -5,7 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "dev:server": "echo fill this in for the server dev env script"
+    "dev:server": "echo fill this in for the server dev env script",
+    "dev:client": "echo fill this in for the client dev env script"
   },
   "author": "Antra-react",
   "dependencies": {

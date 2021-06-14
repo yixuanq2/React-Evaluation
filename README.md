@@ -18,18 +18,23 @@ Our techstack is React, Redux, Node, Express (microservice layer). We don’t ex
 
 1. Review the project to undertand the current project's code, logic, and dependencies.
 
-2. Setup your developement env for the server and create the dev:server script in package.json (You can use nodemon and any thing that help you to write better code.) // Once you have done this part, make a commit called "server env setup".
+2. Setup your developement env for the server and create the `dev:server` script in package.json (You can use nodemon and any thing that help you to write better code.) // Once you have done this part, make a commit called "server env setup".
 
-3. Modify the GET /hobbies endpoint API so that it should return a JSON (an array of hobbies without duplicate value).
+3. Modify the GET `/hobbies` endpoint API so that it should return a JSON (an array of hobbies without duplicate value).
    // Once you have done this part, make a commit called "finished hobbies API".
 
-4. Modify the GET /users/age endpoint API so that the _hobbyToLookup_ value in the function _getListOfAgesOfUsersWithHandler_ can be variably specified by the front-end application calling the endpoint and not hardcoded as 'pc game' like it currently is. / Once you have done this part, make a commit called "finished age API".
+4. Modify the GET `/users/age` endpoint API so that the _hobbyToLookup_ value in the function _getListOfAgesOfUsersWithHandler_ can be variably specified by the front-end application calling the endpoint and not hardcoded as 'pc game' like it currently is. / Once you have done this part, make a commit called "finished age API".
+
+5. Setup your developement env for the client side and create the dev:client script in package.json that script should start the client development server to show UI page (You can use webpack,babel and any thing else that help you to set up the React developement env, and you can put all your client side code under `src/client`) // Once you have done this part, make a commit called "client env setup".
+
+6. Implement the UI design mocks in the PDF in this repo. Use your choice of front-end technology(For the CORS issue, you can either use Proxy on the client side Or `cors` lib on the express side). You DO NOT have to follow the look or layout of the UI components. You MUST have the functionality shown in the mocks. Make the UI look nice :) We used Material-UI in the mocks but you can use whatever else. // Once you have done this part, make a commit called "finished UI".
 
 When you are done, the hiring team should be able to get your code up and running by these 3 commands:
 
 - git clone your completed code challenge repo and cd into the directory
 - then run -> npm install
-- then run -> npm start
+- then run -> npm dev:server
+- then run -> npm dev:client
 
 ---
 

@@ -29,7 +29,7 @@ const getHobbies = () => {
 
 const getListOfAgesOfUsersWith = (hobby) => {
   const dataAccessMethod = () => {
-    // fill me in :) should return an arry of age count based on hobby
+    // fill me in :) should return an arry of age count based on hobby.
     return [
       { age: 18, count: 2 },
       { age: 12, count: 1 },
